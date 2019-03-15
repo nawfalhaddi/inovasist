@@ -1,0 +1,88 @@
+#parameters {
+  min-height: 50vh;
+
+  form {
+    width: 100%;
+
+    .btn {
+      background: #2a8fba;
+      font-weight: 600;
+      border-radius: 30px;
+    }
+
+    .btn:hover {
+      background: #c65543;
+    }
+  }
+
+  select {
+    /* styling */
+    background-color: transparent;
+    border: thin solid grey;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .modify {
+    .form-group {
+      width: 60%;
+
+      .form-control.minimal {
+        background-image: linear-gradient(45deg, transparent 50%, #e0614c 50%), linear-gradient(135deg, #e0614c 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 1px 1.5em;
+        background-repeat: no-repeat;
+      }
+
+      .form-control.minimal:focus {
+        background-image: linear-gradient(45deg, gray 50%, transparent 50%), linear-gradient(135deg, transparent 50%, gray 50%), linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 1px 1.5em;
+        background-repeat: no-repeat;
+        border-color: black;
+        outline: 0;
+      }
+    }
+  }
+
+  select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+
+  .adresse,
+  .email,
+  .mdp,
+  .num,
+  input {
+    border: none;
+    border-radius: 0;
+
+    .form-control {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      background-color: transparent;
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+      border-bottom: 1px solid black !important;
+      background-color: transparent !important;
+    }
+  }
+
+  .adresse,
+  .email,
+  .mdp,
+  .num {
+    display: none;
+  }
+}

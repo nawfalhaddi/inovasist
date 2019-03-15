@@ -1,0 +1,44 @@
+#footer {
+  background-color: #a1a1a1;
+
+  .liens {
+    width: 140px;
+  }
+
+  .lienfooter {
+    a {
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+
+  .info-footer {
+    p {
+      color: white;
+      width: 90%;
+    }
+  }
+
+  .logoFooter {
+    margin: 20px auto 30px;
+  }
+
+  .btn {
+    height: 37px;
+  }
+
+  .form-group {
+    margin-bottom: 1px;
+  }
+
+  .social_media_icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+  }
+
+  .fa {
+    color: white;
+  }
+}

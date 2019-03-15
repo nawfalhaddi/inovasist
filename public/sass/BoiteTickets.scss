@@ -1,0 +1,26 @@
+#Boite-Tickets {
+  h4 {
+    font-weight: 600;
+  }
+
+  hr {
+    background-color: #e0614c;
+  }
+
+  .btn {
+    background-color: #e0614c;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background-color: #c65543;
+  }
+
+  .row {
+    border-bottom: 3px solid rgba(61, 61, 61, 0.68);
+  }
+  /*.col-lg-2,
+  .col-lg-3 {
+    border-right: 1px solid #e0614c;
+  }*/
+}
